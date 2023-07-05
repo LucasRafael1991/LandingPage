@@ -1,0 +1,2 @@
+Este é o repositório do projeto "Lucas Rafael || LR", que consiste em um site pessoal desenvolvido em HTML, CSS e JavaScript. O objetivo deste projeto é apresentar informações sobre mim, minhas experiências, projetos e formas de contato. 
+Darei continuação a esse projeto, porém fique a vontade para utilizar e me dar dicas de como melhorar.

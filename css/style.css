@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(160deg, #141414, #424242, #141414,#424242, #141414, #424242);
+    height: 100%;
+    font-family: 'Lato';
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: .8rem;
+    border-bottom: 2px groove #000;
+    min-height: 50px;
+}
+
+.box-image-header{
+    height: 100%;
+}
+
+.img-logo{
+    max-width: 100px;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-links{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links:hover{
+    color: #a1a1a1;
+    transition: .4s;
+    text-decoration: underline;
+}
+.box-btn-actions{
+    display: flex;
+    gap: 1rem;
+}
+button, .link-action{
+    padding: .6rem;
+    font-size: .9rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .4s;
+}
+.btn-actions{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.btn-actions:hover{
+    background-color: #a1a1a1;
+    border: 1px solid #a1a1a1;
+}
+
+.link-action{
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section{
+    padding: 4rem;
+}
+.first-section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.4rem 10rem; /* Reduz o espaço interno */
+    min-height: 300px; /* Reduz a altura mínima */
+}
+
+.first-section > div{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    min-width: 300px;
+    flex: 1 1 50%;
+    
+}
+
+h1{
+    font-size: 3rem;
+    color: #fff;
+    letter-spacing: 8px;
+}
+
+h2{
+    color: #fff;
+}
+
+strong{
+    color: rgb(146, 226, 199);
+}
+
+.first-section p{
+    color: #fff;
+    margin: 10px;
+}
+
+.box-image-main{
+    padding: 1rem;
+    max-width: 400px;
+    flex: 1 1 50%;
+}
+
+.image-profile{
+    width: 100%;
+    border-radius: 50%;
+}
+
+footer{
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
